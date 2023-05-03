@@ -24,6 +24,9 @@ publishing {
 
     publications {
         maven(MavenPublication) {
+            groupId 'com.miit'
+            artifactId 'github_cd'
+            version '1.0'
             from components.java
         }
     }
